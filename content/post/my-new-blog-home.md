@@ -7,8 +7,6 @@ Categories: []
 DisableComments: false
 ---
 
-## Azure Static Web App
-
 So, I have spent the last few days / weeks deciding the best way to host a blog. Now I have a decidedly "split personality". By this I mean I like to segregate my work and personal hobbies. This can be quite beneficial as this allows me to test a few things.
 
 ### A few key decisions
