@@ -7,8 +7,6 @@ Categories: []
 DisableComments: false
 ---
 
-## Life as a CSA (Cloud Solution Architect)
-
 As a start to this blog post, I think it is important to understand how I see my role as a CSA (Cloud Solution Architect) with my customer. I am primarily a trusted advisor and my customers respect what I have to say, I question and challenge my customers in a constructive way to approach the challenge or problem statement in a different way. I have an amazing role of using Azure as my LEGO playpen and then building a custom solution (LEGO model) to help my customers.
 
 So, of late I have been having a lot of networking discussions with my customers. Now these discussions have been ranging from a new customer to a very advanced customer that has been using Azure for quite some time. These have also ranged from new connection options to extend their on-premises connectivity into Azure, which we call "Hybrid Connectivity", as well as networking considerations once in the cloud with Azure Native connectivity such AKS (Azure Kubernetes Service) and ACI (Azure Container Instances) to simply name the current most top of mind topics.

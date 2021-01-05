@@ -17,17 +17,8 @@
       <pubDate>Tue, 05 Jan 2021 15:57:04 +0200</pubDate>
       
       <guid>https://cloud.fskelly.com/post/my-new-blog-home/</guid>
-      <description>Azure Static Web App So, I have spent the last few days / weeks deciding the best way to host a blog. Now I have a decidedly &amp;ldquo;split personality&amp;rdquo;. By this I mean I like to segregate my work and personal hobbies. This can be quite beneficial as this allows me to test a few things.
+      <description>So, I have spent the last few days / weeks deciding the best way to host a blog. Now I have a decidedly &amp;ldquo;split personality&amp;rdquo;. By this I mean I like to segregate my work and personal hobbies. This can be quite beneficial as this allows me to test a few things.
 A few key decisions  Must be version controlled - good practice and forces me to get more familiar with git.</description>
-    </item>
-    
-    <item>
-      <title>Placeholder</title>
-      <link>https://cloud.fskelly.com/post/placeholder/</link>
-      <pubDate>Tue, 05 Jan 2021 08:57:05 +0200</pubDate>
-      
-      <guid>https://cloud.fskelly.com/post/placeholder/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -45,7 +36,7 @@ A few key decisions  Must be version controlled - good practice and forces me to
       <pubDate>Wed, 07 Aug 2019 16:33:36 +0200</pubDate>
       
       <guid>https://cloud.fskelly.com/post/importance-of-networking-azure/</guid>
-      <description>Life as a CSA (Cloud Solution Architect) As a start to this blog post, I think it is important to understand how I see my role as a CSA (Cloud Solution Architect) with my customer. I am primarily a trusted advisor and my customers respect what I have to say, I question and challenge my customers in a constructive way to approach the challenge or problem statement in a different way.</description>
+      <description>As a start to this blog post, I think it is important to understand how I see my role as a CSA (Cloud Solution Architect) with my customer. I am primarily a trusted advisor and my customers respect what I have to say, I question and challenge my customers in a constructive way to approach the challenge or problem statement in a different way. I have an amazing role of using Azure as my LEGO playpen and then building a custom solution (LEGO model) to help my customers.</description>
     </item>
     
     <item>
