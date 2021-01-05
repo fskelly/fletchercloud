@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme=""><head>
-    <title> Fletcher Kelly | Posts </title>
+    <title> Fletcher Kelly | My New Blog Home </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.68.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://cloud.fskelly.com/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://cloud.fskelly.com/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="https://cloud.fskelly.com/post/">
+    <link rel="canonical" href="https://cloud.fskelly.com/post/my-new-blog-home/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://cloud.fskelly.com/post/index.xml" title="Fletcher's Cloud Journey" />
     
     
     
@@ -51,8 +50,8 @@
                 crossorigin="anonymous"></script>
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Just a simple cloud tinkerer"/>
+<meta name="twitter:title" content="My New Blog Home"/>
+<meta name="twitter:description" content="Looking for a new home for my blog posts"/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -107,7 +106,7 @@
                    title="">Home</a></li>
         
             
-            <li><a class="current"
+            <li><a 
                    href="/post/"
                         
                    title="">Posts</a></li>
@@ -137,30 +136,47 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  animated fadeInDown ">
-        <ul class="list-with-title">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
+            <div class="post-title">
+                <h3>My New Blog Home</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date">Tue, Jan 5, 2021</span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">2-minute read</span>
+                    </div>
+                
+            </div>
+
+            <h2 id="azure-static-web-app">Azure Static Web App</h2>
+<p>So, I have spent the last few days / weeks deciding the best way to host a blog. Now I have a decidedly &ldquo;split personality&rdquo;. By this I mean I like to segregate my work and personal hobbies. This can be quite beneficial as this allows me to test a few things.</p>
+<h3 id="a-few-key-decisions">A few key decisions</h3>
+<ol>
+<li>Must be version controlled - good practice and forces me to get more familiar with <a href="https://git-scm.com/">git</a>.</li>
+<li>Must be reliable and redundant, or at least enough to re-deploy if needed - see point 1 :) .</li>
+<li>Must be as cheap as possible to run and be fairly quick.</li>
+<li>Must be a learning experience.</li>
+</ol>
+<p>Points <strong>1</strong> and <strong>2</strong> makes <a href="https://git-scm.com/">git</a> a natural choice. Point <strong>3</strong> makes <a href="https://azure.microsoft.com/en-us/">Azure</a> or <a href="https://pages.github.com/">GitHub Pages</a> a natural choice. For point <strong>4</strong>, With this being my <em>&ldquo;work persona&rdquo;</em> I chose Azure Static Web App. I have used GitHub Pages for my <em>&ldquo;personal persona&rdquo;</em>.</p>
+<p>So now with the basics out of the way,  I needed to chose a static content generator. Based on discussions with a few people and again wanting to learn something, <a href="https://gohugo.io/getting-started/installing/">hugo</a> was chosen and then there is a great guide <a href="https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo">here</a> as a starting point.</p>
+<p>The blog you are reading now is hosted with the above criteria and of course a custom domain name.</p>
+<p>More to come soon.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                <span class="separator"><a class="tag" href="/tags/azure/">azure</a><a class="tag" href="/tags/static-web/">static web</a></span>
+
+            </div>
+        </div>
+
+        
             
-                <div class="listing-title">2021</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://cloud.fskelly.com/post/my-new-blog-home/" title="My New Blog Home">My New Blog Home</a>
-                                <div class="post-time"><span class="date">Jan 5</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://cloud.fskelly.com/post/placeholder/" title="Placeholder">Placeholder</a>
-                                <div class="post-time"><span class="date">Jan 5</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+        
     </div>
+
 
         </div>
     </div>
