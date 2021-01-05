@@ -39,5 +39,24 @@ A few key decisions  Must be version controlled - good practice and forces me to
       <description>Who Am I? I am currently a Microsoft Employee, this is just my personal blog of Azure Code and Azure Experiences. I use mainly PowerShell. I have other repos focused on other scripting languages like az cli, Terrafrom and REST API calls. I am constatly testing, changing or adding contnet, I try to get the code/samples as accurate as possible. All round geek; Azure Cloud Advocate; PowerShell Scripter; #! Bash Junkee; FastTrack for Azure; Microsoft South Africa Employee; Tinkerer - #arduino, #ESP, #VSCode, #RPI #automatetheworld</description>
     </item>
     
+    <item>
+      <title>Importance of Networking Azure</title>
+      <link>https://cloud.fskelly.com/post/importance-of-networking-azure/</link>
+      <pubDate>Wed, 07 Aug 2019 16:33:36 +0200</pubDate>
+      
+      <guid>https://cloud.fskelly.com/post/importance-of-networking-azure/</guid>
+      <description>Life as a CSA (Cloud Solution Architect) As a start to this blog post, I think it is important to understand how I see my role as a CSA (Cloud Solution Architect) with my customer. I am primarily a trusted advisor and my customers respect what I have to say, I question and challenge my customers in a constructive way to approach the challenge or problem statement in a different way.</description>
+    </item>
+    
+    <item>
+      <title>Csa Tools of the Trade</title>
+      <link>https://cloud.fskelly.com/post/csa-tools-of-the-trade/</link>
+      <pubDate>Tue, 09 Jul 2019 16:46:43 +0200</pubDate>
+      
+      <guid>https://cloud.fskelly.com/post/csa-tools-of-the-trade/</guid>
+      <description>So a question I often get asked is &amp;ldquo;what tools or products do you use?&amp;quot;. So I decided to do a post around the tools and technologies that I personally use on a daily basis. So to start this is what people see on my screen on a daily basis.
+This is my most common tool, Visual Studio Code, the version shown above is actually the Insiders Build. The primary reason for this tool is that is a &amp;ldquo;container&amp;rdquo; for other tools and functionality.</description>
+    </item>
+    
   </channel>
 </rss>
