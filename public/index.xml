@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Fletcher&#39;s Cloud Journey</title>
     <link>https://delightful-field-069854b03.azurestaticapps.net/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Fletcher&#39;s Cloud Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://delightful-field-069854b03.azurestaticapps.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Placeholder</title>
+      <link>https://delightful-field-069854b03.azurestaticapps.net/post/placeholder/</link>
+      <pubDate>Tue, 05 Jan 2021 08:57:05 +0200</pubDate>
+      
+      <guid>https://delightful-field-069854b03.azurestaticapps.net/post/placeholder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://delightful-field-069854b03.azurestaticapps.net/about/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://delightful-field-069854b03.azurestaticapps.net/about/</guid>
+      <description>Who Am I? I am currently a Microsoft Employee, this is just my personal blog of Azure Code and Azure Experiences. I use mainly PowerShell. I have other repos focused on other scripting languages like az cli, Terrafrom and REST API calls. I am constatly testing, changing or adding contnet, I try to get the code/samples as accurate as possible. All round geek; Azure Cloud Advocate; PowerShell Scripter; #! Bash Junkee; FastTrack for Azure; Microsoft South Africa Employee; Tinkerer - #arduino, #ESP, #VSCode, #RPI #automatetheworld</description>
+    </item>
     
   </channel>
 </rss>

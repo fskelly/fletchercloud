@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
+    <title>Tags on Fletcher&#39;s Cloud Journey</title>
     <link>https://delightful-field-069854b03.azurestaticapps.net/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <description>Recent content in Tags on Fletcher&#39;s Cloud Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jan 2021 08:57:05 +0200</lastBuildDate>
     
 	<atom:link href="https://delightful-field-069854b03.azurestaticapps.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>placeholder</title>
+      <link>https://delightful-field-069854b03.azurestaticapps.net/tags/placeholder/</link>
+      <pubDate>Tue, 05 Jan 2021 08:57:05 +0200</pubDate>
+      
+      <guid>https://delightful-field-069854b03.azurestaticapps.net/tags/placeholder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>start</title>
+      <link>https://delightful-field-069854b03.azurestaticapps.net/tags/start/</link>
+      <pubDate>Tue, 05 Jan 2021 08:57:05 +0200</pubDate>
+      
+      <guid>https://delightful-field-069854b03.azurestaticapps.net/tags/start/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
