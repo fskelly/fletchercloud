@@ -1,5 +1,5 @@
 ---
-title: "My New Blog Home"
+title: "My New Blog Home with Azure Static Web App"
 date: 2021-01-05T15:57:04+02:00
 Description: "Looking for a new home for my blog posts"
 Tags: ["azure", "static web"]
