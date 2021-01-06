@@ -5,6 +5,7 @@ Description: ""
 Tags: ["CSA", "cloud tools"]
 Categories: []
 DisableComments: false
+author: "Fletcher Kelly"
 ---
 So a question I often get asked is "what tools or products do you use?". So I decided to do a post around the tools and technologies that I personally use on a daily basis. So to start this is what people see on my screen on a daily basis.
 

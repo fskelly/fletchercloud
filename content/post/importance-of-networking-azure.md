@@ -5,6 +5,7 @@ Description: ""
 Tags: ["CSA", "Architecture", "Networking"]
 Categories: []
 DisableComments: false
+author: "Fletcher Kelly"
 ---
 
 As a start to this blog post, I think it is important to understand how I see my role as a CSA (Cloud Solution Architect) with my customer. I am primarily a trusted advisor and my customers respect what I have to say, I question and challenge my customers in a constructive way to approach the challenge or problem statement in a different way. I have an amazing role of using Azure as my LEGO playpen and then building a custom solution (LEGO model) to help my customers.

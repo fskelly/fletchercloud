@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Fletcher's Cloud Journey"
 theme = "anatole"
 
+# Enable Disqus
+disqusShortname = "disqus_It6rAlEibI"
 
 # Syntax highlighting
 pygmentsUseClasses = true
