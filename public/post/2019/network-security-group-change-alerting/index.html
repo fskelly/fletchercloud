@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme=""><head>
-    <title> Fletcher Kelly | Fletcher&#39;s Cloud Journey </title>
+    <title> Fletcher Kelly | Network Security Group Change Alerting </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.68.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://cloud.fskelly.com/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://cloud.fskelly.com/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="https://cloud.fskelly.com/">
+    <link rel="canonical" href="https://cloud.fskelly.com/post/2019/network-security-group-change-alerting/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://cloud.fskelly.com/index.xml" title="Fletcher's Cloud Journey" />
     
     
     
@@ -51,8 +50,9 @@
                 crossorigin="anonymous"></script>
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Fletcher&#39;s Cloud Journey"/>
-<meta name="twitter:description" content="Just a simple cloud tinkerer"/>
+<meta name="twitter:title" content="Network Security Group Change Alerting"/>
+<meta name="twitter:description" content="So, I was with a customer and they are asking for a fairly standard alert.
+&ldquo;Please alert me when an NSG is added or modified&rdquo;. Seems simply enough, however this is not as simply as you think. So I used my favourite search and found the following, “How to receive an email on Azure Network Security Group Rule changes“, this is great content and after testing, it works exactly as expected."/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -101,7 +101,7 @@
         
         
             
-            <li><a class="current"
+            <li><a 
                    href="/"
                         
                    title="">Home</a></li>
@@ -137,107 +137,63 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-
     <div class="post  animated fadeInDown ">
+        <div class="post-content">
+            <div class="post-title">
+                <h3>Network Security Group Change Alerting</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date">Wed, Feb 20, 2019</span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">One-minute read</span>
+                    </div>
+                
+            </div>
+
+            <p>So, I was with a customer and they are asking for a fairly standard alert.</p>
+<p><strong>&ldquo;Please alert me when an NSG is added or modified&rdquo;</strong>. Seems simply enough, however this is not as simply as you think. So I used my favourite search and found the following, “How to receive an email on Azure Network Security Group Rule changes“, this is great content and after testing, it works exactly as expected. I just found one little concern with this approach; this is simply finding the required ID for the action group. I have now investigated and found some code to make this a little easier.</p>
+<p>AZ CLI</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">az monitor action-group list
+</code></pre></div><p>PowerShell</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Get-AzActionGroup</span>
+</code></pre></div><p>Hope this helps people in the field to find the Resource Group ID more easily.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                <span class="separator"><a class="tag" href="/tags/nsg/">nsg</a><a class="tag" href="/tags/azure-monitor/">azure monitor</a></span>
+
+            </div>
+        </div>
+
         
+            <div id="fb_comments_container">
+                    <h2>comments</h2>
+                    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fletchercloudblog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </div>
         
     </div>
 
-    
-    
-
-        <div class="post  animated fadeInDown ">
-            <div class="post-title">
-                <h3><a href="/post/2021/my-new-blog-home/">My New Blog Home with Azure Static Web App</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part"><p>So, I have spent the last few days / weeks deciding the best way to host a blog. Now I have a decidedly &ldquo;split personality&rdquo;. By this I mean I like to segregate my work and personal hobbies. This can be quite beneficial as this allows me to test a few things.
-A few key decisions  Must be version controlled - good practice and forces me to get more familiar with git.</p></div>
-            </div>
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info"><em class="fas fa-calendar-day"></em><span
-                                class="date">Tue, Jan 5, 2021</span>
-                        <a class="tag"
-                                   href="/tags/azure/">azure</a><a class="tag"
-                                   href="/tags/static-web/">static web</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            <div class="post-title">
-                <h3><a href="/post/2019/importance-of-networking-azure/">Importance of Networking Azure</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part"><p>As a start to this blog post, I think it is important to understand how I see my role as a CSA (Cloud Solution Architect) with my customer. I am primarily a trusted advisor and my customers respect what I have to say, I question and challenge my customers in a constructive way to approach the challenge or problem statement in a different way. I have an amazing role of using Azure as my LEGO playpen and then building a custom solution (LEGO model) to help my customers.</p></div>
-            </div>
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info"><em class="fas fa-calendar-day"></em><span
-                                class="date">Wed, Aug 7, 2019</span>
-                        <a class="tag"
-                                   href="/tags/csa/">CSA</a><a class="tag"
-                                   href="/tags/architecture/">Architecture</a><a class="tag"
-                                   href="/tags/networking/">Networking</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            <div class="post-title">
-                <h3><a href="/post/2019/csa-tools-of-the-trade/">Csa Tools of the Trade</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part"><p>So a question I often get asked is &ldquo;what tools or products do you use?&quot;. So I decided to do a post around the tools and technologies that I personally use on a daily basis. So to start this is what people see on my screen on a daily basis.
-This is my most common tool, Visual Studio Code, the version shown above is actually the Insiders Build. The primary reason for this tool is that is a &ldquo;container&rdquo; for other tools and functionality.</p></div>
-            </div>
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info"><em class="fas fa-calendar-day"></em><span
-                                class="date">Tue, Jul 9, 2019</span>
-                        <a class="tag"
-                                   href="/tags/csa/">CSA</a><a class="tag"
-                                   href="/tags/cloud-tools/">cloud tools</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            <div class="post-title">
-                <h3><a href="/post/2019/network-security-group-change-alerting/">Network Security Group Change Alerting</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part"><p>So, I was with a customer and they are asking for a fairly standard alert.
-&ldquo;Please alert me when an NSG is added or modified&rdquo;. Seems simply enough, however this is not as simply as you think. So I used my favourite search and found the following, “How to receive an email on Azure Network Security Group Rule changes“, this is great content and after testing, it works exactly as expected.</p></div>
-            </div>
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info"><em class="fas fa-calendar-day"></em><span
-                                class="date">Wed, Feb 20, 2019</span>
-                        <a class="tag"
-                                   href="/tags/nsg/">nsg</a><a class="tag"
-                                   href="/tags/azure-monitor/">azure monitor</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    <div class="pagination">
-        
-
-
-    </div>
 
         </div>
     </div>
